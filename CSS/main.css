@@ -1,0 +1,158 @@
+:root{
+    --primary:#5721CD;
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600px;
+}
+.sect1{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin-right: 50px;
+    padding: 10px;
+}
+h1, .p1{
+    font-family: sans-serif;
+}
+h1{
+    font-size: 3em;
+}
+span{
+    color: var(--primary);
+}
+.hey{
+    margin: 60px;
+    width: 600px;
+}
+.button1, .button3{
+    border-radius: 20px;
+    padding: 9px;
+}
+.img{
+    margin-right: 100px;
+}
+::selection{
+    background-color: var(--primary);
+    color: white;
+}
+.sect2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 100px;
+}
+.p2, .p3, .h31{
+    text-align: center;
+    font-family: sans-serif;
+}
+h3{
+    color: var(--primary);
+}
+.p3{
+    font-weight: bold;
+}
+.box{
+    background-color: #DDDDE2;
+    width: 190px;
+    height: 300px;
+    padding: 20px;
+    transition-property: padding;
+    transition-duration: 1s;
+}
+.box:hover{
+    padding: 60px;
+}
+.button2{
+    border-radius: 20px;
+    padding: 9px;
+    position: relative;
+    left: 43px;
+    margin-top: 10px;
+}
+hr{
+    width: 180px;
+}
+.sect3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 100px;
+}
+.me{
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+h2{
+    font-size: 3em;
+}
+.fon{
+    width: 380px;
+    height: 480px;
+    border: solid black 20px;
+}
+.omar{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.about{
+    margin-left: 20px;
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+footer{
+    background-color: var(--primary);
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.bg-primary{
+    background-color: var(--primary);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.cont{
+    color: white;
+    font-size: 3em;
+}
+.p4{
+    color: white;
+    margin-top: -40px;
+}
+.sect4{
+    display: flex;
+    justify-content: space-between;
+    height: 320px;
+}
+.formu{
+    margin-left: 100px;
+}
+.maps{
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+.formul{
+    width: 500px;
+}
+.formula{
+    width: 500px;
+    height: 100px;
+}
+label{
+    font-weight: bold;
+}
